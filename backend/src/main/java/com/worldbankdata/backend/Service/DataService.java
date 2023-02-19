@@ -41,7 +41,7 @@ public class DataService {
         double result = 0;
 //        ResourceLoader resourceLoader = new DefaultResourceLoader();
 //        Resource resource =resourceLoader.getResource("classpath:FutureGDP.csv");
-        BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Aaron\\Documents\\SoftwareClasses\\hackathons\\final\\gdp_predictor\\backend\\src\\main\\resources\\FutureGDP.csv"));
+        BufferedReader br = new BufferedReader(new FileReader("/Users/olusolaakinbode/Documents/CalgaryHacks/gdp_predictor/backend/src/main/resources/FutureGDP.csv"));
         try{
             String line;
             while((line = br.readLine()) != null){
